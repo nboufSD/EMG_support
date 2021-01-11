@@ -1,0 +1,21 @@
+.like {
+  pointer-events: none;
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  background-color: transparent;
+  transform: translate(-50%, -50%);
+  animation: fadeout 1.5s forwards;
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

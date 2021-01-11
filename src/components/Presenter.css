@@ -1,0 +1,26 @@
+.presenter {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.react-transform-component {
+  /* avoid react-zoom-pan-pinch style */
+  height: 100% !important;
+  /* in order to keep the width of video */
+  overflow: unset !important;
+  clip-path: content-box;
+}
+
+.react-transform-element {
+  /* avoid react-zoom-pan-pinch style */
+  height: 100% !important;
+  pointer-events: none;
+}
+
+.presenter__video {
+  height: 100%;
+  pointer-events: none;
+}
